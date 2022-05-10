@@ -1,0 +1,6 @@
+[B]Please utilize Tips (Tools->Tips for Use) to catch up on any changes and fixes
+
+[COLOR dodgerblue][B]2.0.3 - Changelogs restored[/B][/COLOR]
+
+2.0.2 - Cleanup of all "Fenom" related strings and code
+2.0.1 - Forked from Fen - New API keys for TMDB and Trakt / New Artwork
