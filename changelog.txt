@@ -1,7 +1,10 @@
 [B]Please utilize Tips (Tools->Tips for Use) to catch up on any changes and fixes
 
-[COLOR dodgerblue][B]2.0.4 - GDrive deprecated[/B][/COLOR]
+[COLOR dodgerblue][B]2.0.5 June 13, 2022[/B][/COLOR]
 
+[COLOR dodgerblue][B]--[/B][/COLOR] My accounts icon return for sharing with other addons and new fanart
+
+2.0.4 - GDrive deprecated
 2.0.3 - Changelogs restored
 2.0.2 - Cleanup of all "Fenom" related strings and code
 2.0.1 - Forked from Fen - New API keys for TMDB and Trakt / New Artwork
