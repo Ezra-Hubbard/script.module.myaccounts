@@ -1,9 +1,10 @@
 [B]Please utilize Tips (Tools->Tips for Use) to catch up on any changes and fixes
 
-[COLOR dodgerblue][B]2.0.6 June 25, 2022[/B][/COLOR]
+[COLOR dodgerblue][B]2.0.7 June 27, 2022[/B][/COLOR]
 
-[COLOR dodgerblue][B]--[/B][/COLOR] Version bump 
+[COLOR dodgerblue][B]--[/B][/COLOR] Readme updated, removed "ezra" from text 
 
+2.0.6 - Nothing exciting
 2.0.5 - My accounts icon return for sharing with other addons and new fanart
 2.0.4 - GDrive deprecated
 2.0.3 - Changelogs restored

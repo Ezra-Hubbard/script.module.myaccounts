@@ -11,6 +11,7 @@
 # Addons currently sharing the My Accounts module
 
 Ezra - Github/ezra-hubbard
+
 Kingpin - Github/wilson-fisk
 
 # Welcome to the *My Accounts* Project
