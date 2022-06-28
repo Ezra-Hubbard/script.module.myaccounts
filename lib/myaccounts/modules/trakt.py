@@ -13,8 +13,8 @@ trakt_icon = control.joinPath(control.artPath(), 'trakt.png')
 class Trakt():
 	def __init__(self):
 		self.api_endpoint = 'https://api-v2launch.trakt.tv/%s'
-		self.client_id = 'e3a8d1c673dfecb7f669b23ecbf77c75fcfd24d3e8c3dbc7f79ed995262fa1db'
-		self.client_secret = '73bee6aeee29cb75db4d8771458a440017f7cfe842e85f457ed9d81f7910b349'
+		self.client_id = self.traktClientID()
+		self.client_secret = self.traktClientSecret()
 		self.expires_at = control.setting('trakt.expires')
 		self.token = control.setting('trakt.token')
 
@@ -39,7 +39,7 @@ class Trakt():
 					error_notification('', str(e))
 				return resp
 			timeout = 15.0
-			headers = {'Content-Type': 'application/json', 'trakt-api-version': '2', 'trakt-api-key': self.client_id}
+			headers = {'Content-Type': 'application/json', 'trakt-api-version': '2', 'trakt-api-key': self.traktClientID()}
 			response = send_query()
 			response.encoding = 'utf-8'
 			if return_str: return response
@@ -50,14 +50,14 @@ class Trakt():
 			log_utils.error()
 
 	def get_device_code(self):
-		data = {'client_id': self.client_id}
+		data = {'client_id': self.traktClientID()}
 		return self.call("oauth/device/code", data=data, with_auth=False)
 
 	def get_device_token(self, device_codes):
 		try:
 			data = {"code": device_codes["device_code"],
-					"client_id": self.client_id,
-					"client_secret": self.client_secret}
+					"client_id": self.traktClientID(),
+					"client_secret": self.traktClientSecret()}
 			start = time.time()
 			expires_in = device_codes['expires_in']
 			verification_url = control.lang(32513) % str(device_codes['verification_url'])
@@ -89,8 +89,8 @@ class Trakt():
 		traktRefresh = None
 		traktExpires = None
 		data = {
-			"client_id": self.client_id,
-			"client_secret": self.client_secret,
+			"client_id": self.traktClientID(),
+			"client_secret": self.traktClientSecret(),
 			"redirect_uri": "urn:ietf:wg:oauth:2.0:oob",
 			"grant_type": "refresh_token",
 			"refresh_token": control.setting('trakt.refresh')
@@ -211,3 +211,13 @@ class Trakt():
 		except:
 			log_utils.error()
 			return
+	def traktClientID(self):
+		traktId = 'e3a8d1c673dfecb7f669b23ecbf77c75fcfd24d3e8c3dbc7f79ed995262fa1db'
+		if (control.setting('trakt.client.id') != '' or control.setting('trakt.client.id') is not None) and control.setting('traktuserkey.enabled') == 'true':
+			traktId = control.setting('trakt.client.id')
+		return traktId
+	def traktClientSecret(self):
+		traktSecret = '73bee6aeee29cb75db4d8771458a440017f7cfe842e85f457ed9d81f7910b349'
+		if (control.setting('trakt.client.secret') != '' or control.setting('trakt.client.secret') is not None) and control.setting('traktuserkey.enabled') == 'true':
+			traktSecret = control.setting('trakt.client.secret')
+		return traktSecret

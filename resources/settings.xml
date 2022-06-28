@@ -3,6 +3,9 @@
 	<!-- Trakt-0 -->
 	<category label ="32315">
 		<setting type="lsep" label="32315" />
+		<setting id="traktuserkey.enabled" type="bool" visible="eq(3,)" label="40090" default="false" />
+		<setting id="trakt.client.id" type="text" visible="eq(-1,true) + eq(2,)" label="40089" default="" />
+		<setting id="trakt.client.secret" type="text" visible="eq(-2,true)+ eq(1,)" option="hidden" label="40088" default="" />
 		<setting id="trakt.token" type="text" visible="false" label="" default="" />
 		<setting id="trakt.username" type="text" default="" label="40062" enable="false" visible="!eq(-1,)" />
 		<setting type="action" label="32316" action="RunScript(script.module.myaccounts, action=traktAcct)" visible="!eq(-2,)" />
