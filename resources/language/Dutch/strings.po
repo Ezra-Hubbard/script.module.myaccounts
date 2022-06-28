@@ -427,3 +427,19 @@ msgstr "Configuratie"
 msgctxt "#40086"
 msgid "Account Expiry Notification"
 msgstr "Account Verlopen Notificatie"
+
+msgctxt "#40087"
+msgid "Trakt Client ID"
+msgstr ""
+
+msgctxt "#40088"
+msgid "Trakt Client Secret"
+msgstr ""
+
+msgctxt "#40089"
+msgid "Trakt API Key"
+msgstr ""
+
+msgctxt "#40090"
+msgid "Use Custom Trakt API Keys"
+msgstr ""

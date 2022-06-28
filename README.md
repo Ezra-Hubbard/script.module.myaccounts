@@ -14,6 +14,8 @@ Ezra - Github/ezra-hubbard
 
 Kingpin - Github/wilson-fisk
 
+Umbrella - Github/UmbrellaPlug
+
 # Welcome to the *My Accounts* Project
 Kodi developers one stop shop for common account information accessed under one roof that all addons can share.  This allows users to setup accounts once and addons access that data.
 
