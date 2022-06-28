@@ -3,6 +3,7 @@
 [COLOR dodgerblue][B]2.0.8[/B][/COLOR]
 
 [COLOR dodgerblue][B]--[/B][/COLOR] Option for user to add their own Trakt API Keys (Thanks to UmbrellaPlug)
+[COLOR dodgerblue][B]--[/B][/COLOR] Note, if you wish to use your own API key you must first revoke Trakt permission to then re-auth with personal keys. 
 
 2.0.7 - Readme updated, removed "ezra" from text
 2.0.6 - Nothing exciting
