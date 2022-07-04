@@ -85,10 +85,6 @@
 		<setting type="lsep" label="32334" />
 		<setting id="easynews.username" type="text" label="32335" default="" />
 		<setting id="easynews.password" type="text" label="32336" default="" />
-<!--		<setting type="lsep" label="40082" />
-		<setting label="40085" type="action" action="RunScript(script.module.myaccounts, action=ShowOKDialog, message=40084)" />
-		<setting id="gdrive.cloudflare_url" type="text" label="40083" default="" />-->
-
 		<setting type="lsep" label="32337" />
 		<setting id="ororo.email" type="text" label="32338" default="" />
 		<setting id="ororo.password" type="text" option="hidden" label="32344" default="" />

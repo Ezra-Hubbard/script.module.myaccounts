@@ -94,9 +94,8 @@ def getIMDb():
 def getAllScraper():
 	dict1 = dict(getFilepursuit(), **getFurk())
 	dict2 = dict(dict1, **getEasyNews())
-	dict3 = dict(dict2, **getGDrive())
-	dict4 = dict(dict3, **getOrro())
-	return dict4
+	dict3 = dict(dict2, **getOrro())
+	return dict3
 
 
 def getFilepursuit():
@@ -118,12 +117,6 @@ def getEasyNews():
 	easyNews['easyNews']['username'] = control.setting('easynews.username')
 	easyNews['easyNews']['password'] = control.setting('easynews.password')
 	return easyNews
-
-
-def getGDrive():
-	gdrive = {'gdrive': {}}
-	gdrive['gdrive']['url'] = control.setting('gdrive.cloudflare_url')
-	return gdrive
 
 
 def getOrro():
