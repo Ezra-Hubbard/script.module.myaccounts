@@ -120,12 +120,6 @@ def getEasyNews():
 	return easyNews
 
 
-def getGDrive():
-	gdrive = {'gdrive': {}}
-	gdrive['gdrive']['url'] = control.setting('gdrive.cloudflare_url')
-	return gdrive
-
-
 def getOrro():
 	ororo = {'ororo': {}}
 	ororo['ororo']['email'] = control.setting('ororo.email')
