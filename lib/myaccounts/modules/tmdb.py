@@ -8,8 +8,8 @@ from myaccounts.modules import control
 from myaccounts.modules import log_utils
 
 API_key = control.setting('tmdb.api.key')
-if API_key == '' or API_key is None:
-	API_key = '05a454b451f2f9003fbca293744e4a85'
+#if API_key == '' or API_key is None:
+#	API_key = '05a454b451f2f9003fbca293744e4a85'
 
 
 class Auth:

@@ -45,7 +45,7 @@ msgid "Meta Accounts"
 msgstr ""
 
 msgctxt "#32311"
-msgid "[COLOR FFA0C12C] -- Help --[/COLOR]"
+msgid "[COLOR orange] -- Help --[/COLOR]"
 msgstr ""
 
 msgctxt "#32312"
@@ -81,7 +81,7 @@ msgid "Authorize"
 msgstr ""
 
 msgctxt "#32320"
-msgid "Fanart API"
+msgid "Fanart API Key"
 msgstr ""
 
 msgctxt "#32321"
@@ -97,7 +97,7 @@ msgid "TVDb API Key (Legacy)"
 msgstr ""
 
 msgctxt "#32324"
-msgid "[COLOR FFA0C12C] -- Help --[/COLOR]"
+msgid "[COLOR orange] -- Help --[/COLOR]"
 msgstr ""
 
 msgctxt "#32325"
@@ -165,7 +165,7 @@ msgid "Notify Me About Available Updates"
 msgstr ""
 
 msgctxt "#32341"
-msgid "[COLOR FFA0C12C] -- Help --[/COLOR]"
+msgid "[COLOR orange] -- Help --[/COLOR]"
 msgstr ""
 
 msgctxt "#32342"
@@ -321,11 +321,11 @@ msgid "All Debrid"
 msgstr ""
 
 msgctxt "#40060"
-msgid "TMDb username"
+msgid "TMDb Username"
 msgstr ""
 
 msgctxt "#40061"
-msgid "TMDb password"
+msgid "TMDb Password"
 msgstr ""
 
 msgctxt "#40062"
@@ -381,7 +381,7 @@ msgid "Trakt Successfully Authorized"
 msgstr ""
 
 msgctxt "#40075"
-msgid "Error Authoriing"
+msgid "Error Authorizing"
 msgstr ""
 
 msgctxt "#40076"
@@ -409,15 +409,15 @@ msgid "Authorization Successful"
 msgstr ""
 
 msgctxt "#40082"
-msgid ""
+msgid "GDRIVE"
 msgstr ""
 
 msgctxt "#40083"
-msgid ""
+msgid "GDrive Worker URL"
 msgstr ""
 
 msgctxt "#40084"
-msgid ""
+msgid "To generate a GDrive Worker URL, go to  [B]https://gdrive-cfworker.glitch.me/[/B]  and follow the instructions."
 msgstr ""
 
 msgctxt "#40085"
@@ -441,5 +441,5 @@ msgid "Trakt API Key"
 msgstr ""
 
 msgctxt "#40090"
-msgid "Use Custom Trakt API Keys"
+msgid "Use Personal Trakt API Key"
 msgstr ""

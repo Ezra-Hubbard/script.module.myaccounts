@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 	My Accounts
-'''
+"""
 
 from myaccounts.modules import control
 from myaccounts.modules import log_utils

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-'''
+"""
 	My Accounts
-'''
+"""
 
 import sys
 from urllib.parse import parse_qsl
