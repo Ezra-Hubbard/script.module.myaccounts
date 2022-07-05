@@ -1,15 +1,39 @@
-[B]Please utilize Tips (Tools->Tips for Use) to catch up on any changes and fixes
 
-[COLOR dodgerblue][B]2.0.9[/B][/COLOR]
+  [COLOR orange]v2.1.0[/COLOR]
+- Changed Trakt API (minor)
+- Added Trakt "client_id" / "client_secret" for other addons to sync,
+  see "# NEW" tag in [I]lib/myaccounts/__init__.py[/I]
+- Changed settings organization, normalized text
+- Changed textviewer colors and added icon
+- Other changes
 
-[COLOR dodgerblue][B]--[/B][/COLOR] Gdrive Fix (UmbrellaPlug)
-[COLOR dodgerblue][B]--[/B][/COLOR]  
+  [COLOR orange]v2.0.9[/COLOR]
+- Gdrive removal (UmbrellaPlug)
 
-2.0.8 - Option for user to add their own Trakt API Keys (Thanks to UmbrellaPlug). Note, if you wish to use your own API key you must first revoke Trakt permission to then re-auth with personal keys.
-2.0.7 - Readme updated, removed "ezra" from text
-2.0.6 - Nothing exciting
-2.0.5 - My accounts icon return for sharing with other addons and new fanart
-2.0.4 - GDrive deprecated
-2.0.3 - Changelogs restored
-2.0.2 - Cleanup of all "Fenom" related strings and code
-2.0.1 - Forked from Fen - New API keys for TMDB and Trakt / New Artwork
+  [COLOR orange]v2.0.8[/COLOR]
+- Added option to use personal Trakt API Key (thanks to UmbrellaPlug)
+- REQUIRED: to use personal API Key revoke Trakt authorization FIRST, then
+  reauthorize with personal key (Trakt API Key AND Trakt Client Secret)
+
+  [COLOR orange]v2.0.7[/COLOR]
+- Updated README.md, removed "ezra" from text
+
+  [COLOR orange]v2.0.6[/COLOR]
+- Nothing exciting
+
+  [COLOR orange]v2.0.5[/COLOR]
+- My Accounts icon/fanart return for sharing with other addons
+
+  [COLOR orange]v2.0.4[/COLOR]
+- GDrive deprecated
+
+  [COLOR orange]v2.0.3[/COLOR]
+- Changelog restored
+
+  [COLOR orange]v2.0.2[/COLOR]
+- Cleanup of all legacy related strings and code
+
+  [COLOR orange]v2.0.1[/COLOR]
+- Forked
+- New API keys for TMDB and Trakt
+- New Artwork

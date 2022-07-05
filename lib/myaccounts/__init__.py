@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 	My Accounts
-'''
+"""
 
 from myaccounts.modules import control
 
@@ -15,6 +15,8 @@ def getAll():
 
 def getTrakt():
 	trakt = {'trakt': {}}
+	trakt['trakt']['client_id'] = control.setting('trakt.client_id') # NEW
+	trakt['trakt']['client_secret'] = control.setting('trakt.client_secret') #NEW
 	trakt['trakt']['token'] = control.setting('trakt.token')
 	trakt['trakt']['username'] = control.setting('trakt.username')
 	trakt['trakt']['refresh'] = control.setting('trakt.refresh')
@@ -96,6 +98,9 @@ def getAllScraper():
 	dict2 = dict(dict1, **getEasyNews())
 	dict3 = dict(dict2, **getOrro())
 	return dict3
+#	dict3 = dict(dict2, **getGDrive())
+#	dict4 = dict(dict3, **getOrro())
+#	return dict4
 
 
 def getFilepursuit():
@@ -117,6 +122,12 @@ def getEasyNews():
 	easyNews['easyNews']['username'] = control.setting('easynews.username')
 	easyNews['easyNews']['password'] = control.setting('easynews.password')
 	return easyNews
+
+
+#def getGDrive():
+#	gdrive = {'gdrive': {}}
+#	gdrive['gdrive']['url'] = control.setting('gdrive.cloudflare_url')
+#	return gdrive
 
 
 def getOrro():
