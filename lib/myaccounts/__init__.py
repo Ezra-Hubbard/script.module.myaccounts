@@ -97,13 +97,6 @@ def getAllScraper():
 	dict3 = dict(dict2, **getOrro())
 	return dict3
 
-
-def getFilepursuit():
-	filePursuit = {'filepursuit': {}}
-	filePursuit['filepursuit']['api_key'] = control.setting('filepursuit.api.key')
-	return filePursuit
-
-
 def getFurk():
 	furk = {'furk': {}}
 	furk['furk']['username'] = control.setting('furk.username')
@@ -117,14 +110,6 @@ def getEasyNews():
 	easyNews['easyNews']['username'] = control.setting('easynews.username')
 	easyNews['easyNews']['password'] = control.setting('easynews.password')
 	return easyNews
-
-
-def getOrro():
-	ororo = {'ororo': {}}
-	ororo['ororo']['email'] = control.setting('ororo.email')
-	ororo['ororo']['password'] = control.setting('ororo.password')
-	return ororo
-
 
 def traktRefreshToken():
 	from myaccounts.modules.trakt import Trakt

@@ -74,20 +74,13 @@
 
 	<!-- Scraper Accounts - 3 -->
 	<category label="32327">
-		<setting type="lsep" label="32328" />
-		<setting id="filepursuit.api.key" type="text" label="32329" default="" />
-
 		<setting type="lsep" label="32330"/>
 		<setting id="furk.username" type="text" label="32331" default="" />
 		<setting id="furk.password" type="text" label="32332" option="hidden" default="" />
 		<setting id="furk.api.key" type="text" label="32333" default="" />
-
 		<setting type="lsep" label="32334" />
 		<setting id="easynews.username" type="text" label="32335" default="" />
 		<setting id="easynews.password" type="text" label="32336" default="" />
-		<setting type="lsep" label="32337" />
-		<setting id="ororo.email" type="text" label="32338" default="" />
-		<setting id="ororo.password" type="text" option="hidden" label="32344" default="" />
 	</category>
 
 	<!-- Options - 4 -->
